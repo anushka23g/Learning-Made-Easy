@@ -1,4 +1,4 @@
-              # TEST PREPARATION SCHEDULER 
+ # TEST PREPARATION SCHEDULER 
 
 This project can help you understand the Data Structure and Algorithms in a more efficient manner. It aims at scheduling the studies for maximizing marks during exams. Most students face this problem during exams that what to study to get the best out of their limited time. Also it helps the early beginners to start with the most important subjects so that they have enough time for the most important subjects and then if time permits they can go ahead with less important subjects. Also it schedules the subjects as the way user wants to. 
 
