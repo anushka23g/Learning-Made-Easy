@@ -75,6 +75,12 @@ bool comparison(subject a, subject b)
      return (a.imp > b.imp);
 }
 
+void user_feedback(){
+    int ratings;
+    cout<<"Please give us a feedback on the basis of the preparation schedule provided to you:\nRate us out of 5 where 1 symbolises lowest\n";
+    cin>>ratings;
+    cout<<"Thank you,:)";
+}
 /*
 void printJobScheduling(subject arr[], int n)
 {
@@ -169,7 +175,7 @@ double fractionalKnapsack(float W, topic arr[], int n)
             finalvalue += arr[i].weightage;
            if(arr[i].count==0)
             {
-                 cout<<arr[i].name;
+                 cout<<arr[i].name<<":\n";
 
 
             }
@@ -179,11 +185,11 @@ double fractionalKnapsack(float W, topic arr[], int n)
            float tpaper=arr[i].time/4;
            float tdoubts=arr[i].time/4;
 
-           cout<<"You can revise the topic"<<arr[i].name<< "in "<<trev<<" hours"<<"\n";
+           cout<<"You can revise the topic "<<arr[i].name<< " in "<<trev<<" hours"<<"\n";
 
-           cout<<"Do not forget to take a look at last year questions for this topic in the next"<<tpaper<<" hours"<<"\n";
+           cout<<"Do not forget to take a look at last year questions for this topic in the next "<<tpaper<<" hours"<<"\n";
 
-           cout<<"try to clear your doubts about this topic in next"<<tdoubts<<" hours"<<"\n";cout<<"\n";
+           cout<<"Try to clear your doubts about this topic in the next "<<tdoubts<<" hours"<<"\n";cout<<"\n";
 
             }
         }
@@ -221,16 +227,17 @@ COMPLETE FOR 1 SUBJECT
 
 int main()
 {
-    int k;
-cout<<"0 to schedule studies for all subjects for a long period of time\n  1 to schedule a given subject in limited time\n 2 for mixed schedule of all subjects(if you have enough time)";cin>>k;
-if(k==1)
+    int option;
+cout<<"Press:0 to schedule studies for all subjects for a long period of time\nPress:1 to schedule a given subject in limited time\nPress: 2 for mixed schedule of all subjects(if you have enough time)";
+cin>>option;
+if(option==1)
 
 {
     int n;
 cout<<"enter the no. of topics";
 cin>>n;
 
-int sp=0;
+int total_diff=0;
 
  topic t[2*n];
 
@@ -246,7 +253,7 @@ cout<<"enter priority of each topic i.e. expected weightage";
 for(int i=0;i<n;i++)
 {
 
-cout<<t[i].name<<":";
+cout<<t[i].name<<":"; 
 cin>>t[i].priority;
 t[i].weightage=t[i].priority;
 t[i].count=0;
@@ -258,45 +265,47 @@ for(int i=0;i<n;i++)
 {
 cout<<t[i].name<<":";
 cin>>t[i].difficulty;
-sp=sp+t[i].difficulty;
+total_diff+=t[i].difficulty;
 }
 
-sp=sp+sp/2;
+total_diff+=total_diff/2;
 
-int tt;
-int eff;
+int total_time;
+int focused_time;
+
 cout<<"enter total time available to study this subject in hours";
-cin>>tt;
+cin>>total_time;
 
 cout<<"how much you can resist yourself from using phone during exams?(1-10)";
-cin>>eff;
+cin>>focused_time;
 
-float at=tt*eff/10;
-cout<<"at"<<at<<"\n";
-cout<<"sp"<<sp<<"\n";
-float ut=at/sp;
-cout<<"ut"<<ut<<"\n";
+float available_time=total_time*focused_time/10;
+
+cout<<"Time available: "<<available_time<<"\n";
+cout<<"Total difficulty: "<<total_diff<<"\n";
+
+float utilised_val=available_time/total_diff;
+cout<<"Utilised fraction value: "<<utilised_val<<"\n";
 
 for(int i=0;i<n;i++)
 {
- t[i].time=ut*t[i].difficulty/10;
- cout<<t[i].name<<" "<<t[i].time*10<<"\n";
+ t[i].time=utilised_val*t[i].difficulty/10;
+
 }
 
 int checksub;
-cout<<"the time is";
-cout<<"please check if you will be able to complete the topics in the given time \n if okay press 1 else press 0";
+cout<<"Please check if you will be able to complete the topics in the given time:\n";
 for(int i=0;i<n;i++)
 {
-    cout<<t[i].name<<" "<<t[i].time<<"\n";
+     cout<<t[i].name<<" "<<t[i].time*10<<"\n";
 
 }
-
+cout<<"if okay press 1 else press 0\n";
 cin>>checksub;
 
 if(checksub==0)
 {
-    cout<<"you can enter the time manually";
+    cout<<"you can enter the time manually:";
     for(int i=0;i<n;i++)
     {
      cin>>t[i].time;
@@ -321,17 +330,17 @@ t[i].count=1;
 
 //revision of each subject has a priority and time half of the subject
 
-double prepared=fractionalKnapsack(at,t,2*n);
+double prepared=fractionalKnapsack(available_time,t,2*n);
 
-cout<<prepared;
-return 0;
+cout<<prepared<<"\n";
+
 
 }
 
 
 
 
-else if(k==0)
+else if(option==0)
 
 {
     int n;
@@ -392,10 +401,6 @@ s[i].stime=s[i].credits*ttime/s[i].prep;
 cout<<"complete the subjects in the following sequence to maximize your percentage";
 
 printJobScheduling(s,n) ;
-
-
-
-
 
 
 }
@@ -521,7 +526,7 @@ printJobScheduling(s,n) ;
 
 
 
-else if(k==2)
+else if(option==2)
 {
 
 
@@ -626,11 +631,10 @@ cout<<"do you want to do major chapters first ( press 1 )  or the most difficult
         }
 
 
-
-
-
-
 }
+
+user_feedback();
+return 0;
 }
 
 
