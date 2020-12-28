@@ -27,5 +27,5 @@ Job Scheduling Algorithm: This algorithm is implemented so that the user inputs 
 
 ## REAL LIFE APPLICATION 
 
-A most common problem faced by students during exams is of time managment and its utilization.It can help students to effectively manage their time during exams by giving them a sequence in which the should study in order to maximize marks.
+A most common problem faced by students during exams is of time management and its utilization.It can help students to effectively manage their time during exams by giving them a sequence in which the should study in order to maximize marks.
 
