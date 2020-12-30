@@ -16,8 +16,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-brains.svg)](https://forthebadge.com)
 
+<br>
 ## 📌 Introduction
-
 
 This project has been designed for the convenience of students who are planning for the preparation of any kind of examination. It will help them to understand how to study different subjects,  and the topics within them and how much time should they give to everything and keeps a track of their learning rate of each student and hence personalise their experiences as well, so that it can optimize the time assigned for learning each subject in future. It will help you build a deeper knowledge about Data Structure and Algorithms and understand their applications in our life in a more efficient manner. It aims at scheduling the studies for maximizing marks during exams. Most students face this problem during exams that what to study to get the best out of their limited time. Also it helps the early beginners to start with the most important subjects so that they have enough time for the most important subjects and then if time permits they can go ahead with less important subjects. Apart from this, it schedules the subjects as the way user wants to. 
 
@@ -39,7 +39,6 @@ You can refer to the following articles on the basics of Git and Github and also
 ## ⭐ Language Used:
 
 C++ 
-
 
 <br><br>
 ## ⭐ Basic Functionalities:
