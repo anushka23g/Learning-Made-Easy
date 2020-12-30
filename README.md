@@ -9,10 +9,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-brains.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
 
@@ -38,7 +36,8 @@ You can refer to the following articles on the basics of Git and Github and also
 
 ## ⭐ Language Used:
 
-C++
+C++ 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 
 
 <br><br>
@@ -56,6 +55,8 @@ To schedule the exam time study for students who begin to study quite early I.e.
 <br><br>
 
 ## ⭐ Algorithm used:
+
+[![forthebadge](https://forthebadge.com/images/badges/uses-brains.svg)](https://forthebadge.com)
 
 Fractional Knapsack Algorithm: Fractional Knapsack algorithm is used in order to find the chapters to be done on the basis of their weightage so as to maximize marks in limited amount of time.
 
