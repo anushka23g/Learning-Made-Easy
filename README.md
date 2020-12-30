@@ -24,7 +24,7 @@ The project, ***Learning Made Easy*** has been designed for the convenience of s
 <br>
 
 ## ⭐ How to get started?
-
+[![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com)
 You can refer to the following articles on the basics of Git and Github and also contact the Project Mentors, in case you are stuck:
 
 - [Watch this video to get started, if you have no clue about open source](https://youtu.be/SL5KKdmvJ1U)
@@ -32,7 +32,7 @@ You can refer to the following articles on the basics of Git and Github and also
 - [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
-
+- [Join the workspace to join the community of contributors](https://join.slack.com/t/opensourcecon-q6c3969/shared_invite/zt-kkqg4h5t-G3euksLSmBI4PJ3lg6WbrA)
 
 <br>
 
@@ -68,7 +68,7 @@ Job Scheduling Algorithm: This algorithm is implemented so that the user inputs 
 <br>
 
 ## ⭐ Real Life Application: 
-
+[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com)
 A most common problem faced by students during exams is of time management and its utilization.It can help students to effectively manage their time during exams by giving them a sequence in which the should study in order to maximize marks.
 
 <br>
