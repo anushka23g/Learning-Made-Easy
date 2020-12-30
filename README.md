@@ -1,6 +1,30 @@
  # Learning Made Easy
- 
+ <!-- Banner -->
+<div class="container-fluid">
+  <img class="mx-auto" src="assets/banner.png">
+</div>
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-04-orange.svg?style=flat-square)](#contributors-)
+
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
+
+## 📌 Introduction
+
+
 This project has been designed for the convenience of students who are planning for the preparation of any kind of examination. It will help them to understand how to study different subjects,  and the topics within them and how much time should they give to everything and keeps a track of their learning rate of each student and hence personalise their experiences as well, so that it can optimize the time assigned for learning each subject in future. It will help you build a deeper knowledge about Data Structure and Algorithms and understand their applications in our life in a more efficient manner. It aims at scheduling the studies for maximizing marks during exams. Most students face this problem during exams that what to study to get the best out of their limited time. Also it helps the early beginners to start with the most important subjects so that they have enough time for the most important subjects and then if time permits they can go ahead with less important subjects. Apart from this, it schedules the subjects as the way user wants to. 
+
+## ⭐ How to get started?
+
+You can refer to the following articles on the basics of Git and Github and also contact the Project Mentors, in case you are stuck:
+
+- [Watch this video to get started, if you have no clue about open source](https://youtu.be/SL5KKdmvJ1U)
+- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
+- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
+- [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
 ## Language Used:
 
@@ -29,3 +53,13 @@ Job Scheduling Algorithm: This algorithm is implemented so that the user inputs 
 
 A most common problem faced by students during exams is of time management and its utilization.It can help students to effectively manage their time during exams by giving them a sequence in which the should study in order to maximize marks.
 
+
+## 💥 How to Contribute?
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+- Take a look at the Existing [Issues](https://github.com/anushka23g/Learning-Made-Easy/issues) or create your own Issues!
+- Wait for the Issue to be assigned to you after which you can start working on it.
+- Fork the Repo and create a Branch for any Issue that you are working upon.
+- Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
