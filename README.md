@@ -12,6 +12,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
+
 
 
 ## 📌 Introduction
@@ -37,8 +39,6 @@ You can refer to the following articles on the basics of Git and Github and also
 ## ⭐ Language Used:
 
 C++ 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
-
 
 <br><br>
 ## ⭐ Basic Functionalities:
