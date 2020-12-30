@@ -24,6 +24,7 @@ This project has been designed for the convenience of students who are planning 
 
 
 <br>
+
 ## ⭐ How to get started?
 
 You can refer to the following articles on the basics of Git and Github and also contact the Project Mentors, in case you are stuck:
@@ -42,6 +43,7 @@ You can refer to the following articles on the basics of Git and Github and also
 C++ 
 
 <br>
+
 ## ⭐ Basic Functionalities:
 
 To schedule the exams for a very short period of time I.e. 1-2 days for the students who begin to study just before the day of the exam and complete syllabus in a very short time.
