@@ -24,7 +24,7 @@ The project, ***Learning Made Easy*** has been designed for the convenience of s
 <br>
 
 ## ⭐ How to get started?
-[![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com) <br>
 You can refer to the following articles on the basics of Git and Github and also contact the Project Mentors, in case you are stuck:
 
 - [Watch this video to get started, if you have no clue about open source](https://youtu.be/SL5KKdmvJ1U)
