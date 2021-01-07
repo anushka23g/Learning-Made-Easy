@@ -2,7 +2,9 @@
 <div class="container-fluid">
   <img class="mx-auto" src="assets/banner.png">
 </div>
+
 ## Learning Made Easy
+
 <!--[![All Contributors](https://img.shields.io/badge/all_contributors-04-orange.svg?style=flat-square)](#contributors-)-->
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
