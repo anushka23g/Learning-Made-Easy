@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
-#include "include/mmaker.h"
-#include "include/func.h"
-#include "include/classes.h"
-#include "include/functions.h"
+//#include "include/mmaker.h"
+//#include "include/func.h"
+//#include "include/classes.h"
+//#include "include/functions.h"
 using namespace std;
 
 int main()
