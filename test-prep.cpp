@@ -331,7 +331,7 @@ int main()
         {
             cout << s[i].sname << ":";
             cin >> s[i].examdate;
-            s[i].time_left = s[i].examdate - date - 1;
+            s[i].time_left = s[i].examdate - date + 1;   //// changed the -1 to +1 for resolving error (RTE)
         }
 
         int ttime = s[0].time_left * tgive;
