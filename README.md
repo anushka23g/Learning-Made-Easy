@@ -172,7 +172,7 @@ C++
 ## ⭐ Basic Functionalities:
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-responsibility.svg)](https://forthebadge.com)
 
-To schedule the exams for a very short period of time I.e. 1-2 days for the students who begin to study just before the day of the exam and complete syllabus in a very short time.
+To schedule the exams for a very short period of time i.e. 1-2 days for the students who begin to study just before the day of the exam and complete syllabus in a very short time.
 
 To schedule the exam time study for students subject wise who start their studies one or two week before the exams so they complete their syllabus of each subject in time.
 
