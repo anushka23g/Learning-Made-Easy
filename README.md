@@ -168,6 +168,9 @@ Type in a message relevant for the code reveiwer using
 $ git commit -m 'relevant message'
 ```
 
+<br>
+### 7️⃣ Make a Pull request :bangbang:
+
 Now, Push your awesome work to your remote repository using
 
 ```sh
