@@ -169,6 +169,8 @@ $ git commit -m 'relevant message'
 ```
 
 <br>
+
+
 ### 7️⃣ Make a Pull request :bangbang:
 
 Now, Push your awesome work to your remote repository using
