@@ -337,6 +337,9 @@ int main()
             cout << s[i].sname << "\n enter date: ";
 		
             cin >> s[i].examdate;
+
+            s[i].time_left = s[i].examdate - date + 1;   //// changed the -1 to +1 for resolving error (RTE)
+
 		    cout << "\n enter month: ";
 		cin>>s[i].exam_month;
             
@@ -357,6 +360,7 @@ int main()
         			cout<<"time left: "<<s[i].time_left<<" days"<<endl;
         		}
         	}
+
         }
 
         int ttime = s[0].time_left * tgive;
