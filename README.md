@@ -171,7 +171,7 @@ $ git commit -m 'relevant message'
 <br>
 
 
-### 7️⃣ Make a Pull request :bangbang:
+### 7️⃣ Share your work :star_struck:
 
 Now, Push your awesome work to your remote repository using
 
