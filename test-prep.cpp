@@ -330,27 +330,30 @@ int main()
         cout << "How much time can you give each day to studies( in hours ): ";
         cin >> tgive;
 
-        cout << "Enter the date for the following exams   (Format: dd mm)\n";
+        cout << "Enter the date and month for the following exams:  \n";
 
         for (int i = 0; i < n; i++)
         {
-            cout << s[i].sname << ":";
-            cin >> s[i].examdate>>s[i].exam_month;
+            cout << s[i].sname << "\n enter date: ";
+		
+            cin >> s[i].examdate;
+		    cout << "\n enter month: ";
+		cin>>s[i].exam_month;
             
             
             if(s[i].exam_month==month){//calculating the time left if the exam is on the same month as the date
-            	s[i].time_left=s[i].examdate-date-1;
+            	s[i].time_left=s[i].examdate-date+1;
             	cout<<"time left:"<<" "<<s[i].time_left<<" days"<<endl;
 			}
 			
 			else if(s[i].exam_month>month){//calculating the time left if the exam is scheduled in later months
             	if(s[i].examdate>date){
             		int month_value=s[i].exam_month-month;
-            		s[i].time_left = month_value*(30+abs(s[i].examdate - date - 1));
+            		s[i].time_left = month_value*(30+abs(s[i].examdate - date + 1));
             		cout<<"time left: "<<s[i].time_left<<" days"<<endl;
         		}	
         		else{
-        			s[i].time_left=30-date+s[i].examdate-1;
+        			s[i].time_left=30-date+s[i].examdate+1;
         			cout<<"time left: "<<s[i].time_left<<" days"<<endl;
         		}
         	}
