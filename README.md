@@ -38,6 +38,14 @@ You can refer to the following articles on the basics of Git and Github and also
 
 <br>
 
+## Steps to follow :scroll:
+
+### 1. Fork it :fork_and_knife:
+
+You can get your own fork/copy of [Learning-Made-Easy](https://github.com/anushka23g/Learning-Made-Easy) by using the <kbd><b>Fork</b></kbd> button.
+
+   [![Fork Button](https:help.github.com/assets/images/help/fork_button.jpg)](https://github.com/anushka23g/Learning-Made-Easy)
+
 ## ⭐ Language Used:
 
 C++ 
