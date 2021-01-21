@@ -22,18 +22,18 @@ class subject
 public:
 
 string sname;
-     topic c[];
+     topic c[20];
     int credits;
     int prep;
-    double stime;
+    float stime;
     int imp;
     float profit;
     int examdate;
+    int exam_month;
     int time_left;
     int topics;
     int diff;
-
-
+	int s[100];
 };
 void printJobScheduling(subject arr[], int n);
 
@@ -108,9 +108,10 @@ void printJobScheduling(subject arr[], int n)
     }
 
 
-    for (int i=n-1; i>=0; i++)
+    for (int i=n-1; i>=0; i--)
       {
-          if (slot[i]){ cout <<i;
+          if (slot[i])
+		  { cout <<i;
          cout << arr[result[i]].sname << "\n";}
       }
 }
@@ -236,8 +237,8 @@ int main()
 
         total_diff = total_diff + total_diff / 2;
 
-        int total_time;   // tt
-        int focused_time; // eff
+        float total_time;   // tt
+        float focused_time; // eff
         cout << "Enter total time available to study this subject in hours: ";
         cin >> total_time;
 
@@ -317,21 +318,49 @@ int main()
         }
         int date;
 
-        cout << "Enter today's date  (Format: dd): ";
+        cout << "Enter today's date  (Format: dd):\n ";
         cin >> date;
-
+		int month;
+		
+		cout<<"Enter the month (Format: mm):\n";
+		cin>>month;
+		
         int tgive;
 
         cout << "How much time can you give each day to studies( in hours ): ";
         cin >> tgive;
 
-        cout << "Enter the date for the following exams   (Format: dd)\n";
+        cout << "Enter the date and month for the following exams:  \n";
 
         for (int i = 0; i < n; i++)
         {
-            cout << s[i].sname << ":";
+            cout << s[i].sname << "\n enter date: ";
+		
             cin >> s[i].examdate;
+
             s[i].time_left = s[i].examdate - date + 1;   //// changed the -1 to +1 for resolving error (RTE)
+
+		    cout << "\n enter month: ";
+		cin>>s[i].exam_month;
+            
+            
+            if(s[i].exam_month==month){//calculating the time left if the exam is on the same month as the date
+            	s[i].time_left=s[i].examdate-date+1;
+            	cout<<"time left:"<<" "<<s[i].time_left<<" days"<<endl;
+			}
+			
+			else if(s[i].exam_month>month){//calculating the time left if the exam is scheduled in later months
+            	if(s[i].examdate>date){
+            		int month_value=s[i].exam_month-month;
+            		s[i].time_left = month_value*(30+abs(s[i].examdate - date + 1));
+            		cout<<"time left: "<<s[i].time_left<<" days"<<endl;
+        		}	
+        		else{
+        			s[i].time_left=30-date+s[i].examdate+1;
+        			cout<<"time left: "<<s[i].time_left<<" days"<<endl;
+        		}
+        	}
+
         }
 
         int ttime = s[0].time_left * tgive;
@@ -353,7 +382,7 @@ int main()
             //cout<<s[i].sname<<" "<<s[i].credits<<" "<<s[i].profit<<" "<<s[i].stime<<" "<<s[i].prep<<" "<<s[i].time_left<<endl;
         }
 
-        cout << "Complete the subjects in the following sequence to maximize your percentage: ";
+        cout << "Complete the subjects in the following sequence to maximize your percentage:\n ";
 
         printJobScheduling(s, n);
     }
