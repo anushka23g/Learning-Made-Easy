@@ -22,18 +22,18 @@ class subject
 public:
 
 string sname;
-     topic c[20];
+     topic c[];
     int credits;
     int prep;
-    float stime;
+    double stime;
     int imp;
     float profit;
     int examdate;
-    int exam_month;
     int time_left;
     int topics;
     int diff;
-	int s[100];
+
+
 };
 void printJobScheduling(subject arr[], int n);
 
@@ -82,38 +82,40 @@ void printJobScheduling(subject arr[], int n)
 {
 
     sort(arr, arr+n, comparison);
-
-    int result[n];
-    bool slot[n];
-
-
-    for (int i=0; i<n; i++)
-        slot[i] = false;
-
-
-    for (int i=0; i<n; i++)
-    {
-
-
-       for (int j=min(n, arr[i].time_left)-1; j>=0; j--)
-       {
-
-          if (slot[j]==false)
-          {
-             result[j] = i;  // Add this job to result
-             slot[j] = true; // Make this slot occupied
-             break;
-          }
-       }
-    }
-
-
-    for (int i=n-1; i>=0; i--)
-      {
-          if (slot[i])
-		  { cout <<i;
-         cout << arr[result[i]].sname << "\n";}
-      }
+    for (int i=0;i<n;i++) {
+    	cout<<"\n"<<i+1<<") "<<arr[i].sname;              // updated the function and it works correctly now(  error RTE before user feedback()  )
+	}
+	cout<<"\n";
+//    int result[n];
+//    bool slot[n];
+//
+//
+//    for (int i=0; i<n; i++)
+//        slot[i] = false;
+//
+//
+//    for (int i=0; i<n; i++)
+//    {
+//
+//
+//       for (int j=min(n, arr[i].time_left)-1; j>=0; j--)
+//       {
+//
+//          if (slot[j]==false)
+//          {
+//             result[j] = i;  // Add this job to result
+//             slot[j] = true; // Make this slot occupied
+//             break;
+//          }
+//       }
+//    }
+//
+//
+//    for (int i=n-1; i>=0; i++)
+//      {
+//          if (slot[i]){ cout <<i;
+//         cout << arr[result[i]].sname << "\n";}
+//      }
 }
 
 
@@ -237,8 +239,8 @@ int main()
 
         total_diff = total_diff + total_diff / 2;
 
-        float total_time;   // tt
-        float focused_time; // eff
+        int total_time;   // tt
+        int focused_time; // eff
         cout << "Enter total time available to study this subject in hours: ";
         cin >> total_time;
 
@@ -318,49 +320,21 @@ int main()
         }
         int date;
 
-        cout << "Enter today's date  (Format: dd):\n ";
+        cout << "Enter today's date  (Format: dd): ";
         cin >> date;
-		int month;
-		
-		cout<<"Enter the month (Format: mm):\n";
-		cin>>month;
-		
+
         int tgive;
 
         cout << "How much time can you give each day to studies( in hours ): ";
         cin >> tgive;
 
-        cout << "Enter the date and month for the following exams:  \n";
+        cout << "Enter the date for the following exams   (Format: dd)\n";
 
         for (int i = 0; i < n; i++)
         {
-            cout << s[i].sname << "\n enter date: ";
-		
+            cout << s[i].sname << ":";
             cin >> s[i].examdate;
-
             s[i].time_left = s[i].examdate - date + 1;   //// changed the -1 to +1 for resolving error (RTE)
-
-		    cout << "\n enter month: ";
-		cin>>s[i].exam_month;
-            
-            
-            if(s[i].exam_month==month){//calculating the time left if the exam is on the same month as the date
-            	s[i].time_left=s[i].examdate-date+1;
-            	cout<<"time left:"<<" "<<s[i].time_left<<" days"<<endl;
-			}
-			
-			else if(s[i].exam_month>month){//calculating the time left if the exam is scheduled in later months
-            	if(s[i].examdate>date){
-            		int month_value=s[i].exam_month-month;
-            		s[i].time_left = month_value*(30+abs(s[i].examdate - date + 1));
-            		cout<<"time left: "<<s[i].time_left<<" days"<<endl;
-        		}	
-        		else{
-        			s[i].time_left=30-date+s[i].examdate+1;
-        			cout<<"time left: "<<s[i].time_left<<" days"<<endl;
-        		}
-        	}
-
         }
 
         int ttime = s[0].time_left * tgive;
@@ -382,7 +356,7 @@ int main()
             //cout<<s[i].sname<<" "<<s[i].credits<<" "<<s[i].profit<<" "<<s[i].stime<<" "<<s[i].prep<<" "<<s[i].time_left<<endl;
         }
 
-        cout << "Complete the subjects in the following sequence to maximize your percentage:\n ";
+        cout << "Complete the subjects in the following sequence to maximize your percentage: ";
 
         printJobScheduling(s, n);
     }
