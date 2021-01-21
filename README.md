@@ -16,7 +16,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 
 
-
+<br>
 ## 📌 Introduction
 
 
@@ -38,7 +38,7 @@ You can refer to the following articles on the basics of Git and Github and also
 
 <br>
 
-## Steps to follow :scroll:
+## ⭐ Steps to follow :scroll:
 
 ### 1. Fork it :fork_and_knife:
 
@@ -155,6 +155,8 @@ $ git push -u origin Folder_Name
 Finally, go to your repository in browser and click on `compare and pull requests`.
 Then add a title and description to your pull request that explains your precious effort.
 
+<br>
+
 ## Help Contributing Guides :crown:
 
 We love to have `articles` and `codes` in different languages and `betterment` of existing ones.
@@ -162,6 +164,8 @@ We love to have `articles` and `codes` in different languages and `betterment` o
 Please discuss it with us first by creating new issue.
 
 :tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
+
+<br>
 
 ## ⭐ Language Used:
 
