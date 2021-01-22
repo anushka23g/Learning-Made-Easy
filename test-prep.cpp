@@ -83,6 +83,44 @@ void printJobScheduling(subject arr[], int n)
 
     sort(arr, arr+n, comparison);
 
+  
+    for (int i=0;i<n;i++) {
+    	cout<<"\n"<<i+1<<") "<<arr[i].sname;              // updated the function and it works correctly now(  error RTE before user feedback()  )
+	}
+	cout<<"\n";
+//    int result[n];
+//    bool slot[n];
+//
+//
+//    for (int i=0; i<n; i++)
+//        slot[i] = false;
+//
+//
+//    for (int i=0; i<n; i++)
+//    {
+//
+//
+//       for (int j=min(n, arr[i].time_left)-1; j>=0; j--)
+//       {
+//
+//          if (slot[j]==false)
+//          {
+//             result[j] = i;  // Add this job to result
+//             slot[j] = true; // Make this slot occupied
+//             break;
+//          }
+//       }
+//    }
+//
+//
+//    for (int i=n-1; i>=0; i--)
+//      {
+//          if (slot[i])
+//		  { cout <<i;
+//         cout << arr[result[i]].sname << "\n";}
+//      }
+=======
+
     int result[n];
     bool slot[n];
 
@@ -115,6 +153,7 @@ void printJobScheduling(subject arr[], int n)
 		      cout << arr[result[i]].sname << "\n";
           }
       }
+  
 }
 
 
