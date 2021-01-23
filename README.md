@@ -192,10 +192,22 @@ Now, Push your awesome work to your remote repository using
 $ git push -u origin Folder_Name
 ```
 
-Finally, go to your repository in browser and click on `compare and pull requests`.
+Then, go to your repository in browser and click on `compare and pull requests`.
 Then add a title and description to your pull request that explains your precious effort.
 
 <br>
+
+
+### 9️⃣ Get Featured in the Contributor's List! 👩‍💻👨‍💻
+
+Finally, after your pull request has been merged, add another comment below the PR as follows
+
+```sh
+@all-contributors please add @<your_username> for <contributions>
+```
+In contributions, you need to type `code` if you have contributed to the code, or `documentation` if you 
+contrubuted for the markdown files.
+[Click here for more instructions](https://allcontributors.org/docs/en/bot/usage)
 
 ## ⭐ Help Contributing Guides :crown:
 
