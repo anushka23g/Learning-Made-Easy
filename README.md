@@ -16,6 +16,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 
 
+<br>
 
 ## 📌 Introduction
 
@@ -38,13 +39,19 @@ You can refer to the following articles on the basics of Git and Github and also
 
 <br>
 
-## Steps to follow :scroll:
+## ⭐ Steps to follow :scroll:
 
-### 1. Fork it :fork_and_knife:
+<br>
+
+
+### 1️⃣ Fork it :fork_and_knife:
 
 You can get your own fork/copy of [Learning-Made-Easy](https://github.com/anushka23g/Learning-Made-Easy) by using the <kbd><b>Fork</b></kbd> button.
- 
-### 2. Clone it :busts_in_silhouette:
+
+<br>
+
+
+### 2️⃣ Clone it :busts_in_silhouette:
 
 You need to clone (download) it to local machine using
 
@@ -63,7 +70,11 @@ $ cd Learning-Made-Easy
 
 Move to this folder for all other commands.
 
-### 3. Set it up :arrow_up:
+<br>
+
+
+
+### 3️⃣ Set it up :arrow_up:
 
 Run the following commands to see that *your local copy* has a reference to *your forked remote repository* in Github :octocat:
 
@@ -90,7 +101,11 @@ upstream  https://github.com/anushka23g/Learning-Made-Easy.git (fetch)
 upstream  https://github.com/anushka23g/Learning-Made-Easy.git (push)
 ```
 
-### 4. Sync it :recycle:
+<br>
+
+
+
+### 4️⃣ Sync it :recycle:
 
 Always keep your local copy of repository updated with the original repository.
 Before making any changes and/or in an appropriate interval, run the following commands *carefully* to update your local repository.
@@ -109,11 +124,31 @@ $ git reset --hard upstream/master
 $ git push origin master
 ```
 
-### 5. Ready Steady Go... :turtle: :rabbit2:
+<br>
+
+
+
+### 5️⃣ Ready Steady Go... :turtle: :rabbit2:
 
 Once you have completed these steps, you are ready to start contributing by checking our `Help Wanted` Issues and creating [pull requests](https:/anushka23g/Learning-Made-Easy/github.com//pulls).
 
-### 6. Create a new branch :bangbang:
+<br>
+
+### 6️⃣ Running the work on your local machine :computer:
+
+To run the code and play with the app on your local machine, do:
+* `if os == 'Windows'`:
+  * We have tested the code in **Dev C++ IDE** and **Code Blocks IDE** **(Both running MINGW)**.
+  * To run the code in any IDE, simply open the file, click `Execute > Run` [Click here for more instructions](http://cs.uno.edu/~jaime/Courses/2025/devCpp2025Instructions.html)
+*  `if os == 'Linux or Unix or Mac'`:
+   * You need to have `GCC` installed:
+   * Go to the folder having the code(.cpp file).
+   * Open the terminal, and type : `g++ -o test_prep test-prep.cpp`
+   * Then run the script by typing : `./test_prep` 
+
+<br>
+
+### 7️⃣ Create a new branch :bangbang:
 
 Whenever you are going to make contribution. Please create seperate branch using command and keep your `master` branch clean (i.e. synced with remote branch).
 
@@ -145,6 +180,11 @@ Type in a message relevant for the code reveiwer using
 $ git commit -m 'relevant message'
 ```
 
+<br>
+
+
+### 8️⃣ Share your work :star_struck:
+
 Now, Push your awesome work to your remote repository using
 
 ```sh
@@ -152,16 +192,32 @@ Now, Push your awesome work to your remote repository using
 $ git push -u origin Folder_Name
 ```
 
-Finally, go to your repository in browser and click on `compare and pull requests`.
+Then, go to your repository in browser and click on `compare and pull requests`.
 Then add a title and description to your pull request that explains your precious effort.
 
-## Help Contributing Guides :crown:
+<br>
+
+
+### 9️⃣ Get Featured in the Contributor's List! 👩‍💻👨‍💻
+
+Finally, after your pull request has been merged, add another comment below the PR as follows
+
+```sh
+@all-contributors please add @<your_username> for <contributions>
+```
+In contributions, you need to type `code` if you have contributed to the code, or `documentation` if you 
+contrubuted for the markdown files.
+[Click here for more instructions](https://allcontributors.org/docs/en/bot/usage)
+
+## ⭐ Help Contributing Guides :crown:
 
 We love to have `articles` and `codes` in different languages and `betterment` of existing ones.
 
 Please discuss it with us first by creating new issue.
 
 :tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
+
+<br>
 
 ## ⭐ Language Used:
 
@@ -172,7 +228,7 @@ C++
 ## ⭐ Basic Functionalities:
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-responsibility.svg)](https://forthebadge.com)
 
-To schedule the exams for a very short period of time I.e. 1-2 days for the students who begin to study just before the day of the exam and complete syllabus in a very short time.
+To schedule the exams for a very short period of time i.e. 1-2 days for the students who begin to study just before the day of the exam and complete syllabus in a very short time.
 
 To schedule the exam time study for students subject wise who start their studies one or two week before the exams so they complete their syllabus of each subject in time.
 
