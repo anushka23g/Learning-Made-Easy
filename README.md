@@ -67,7 +67,7 @@ $ git clone https://github.com/Your_Username/Learning-Made-Easy.git
 Once you have cloned the `Learning-Made-Easy` repository in Github, move to that folder first using change directory command on linux and Mac.
 
 ```sh
-# This will change directory to a folder Algo_Ds_Notes
+# This will change directory to a folder Learning-Made-Easy
 $ cd Learning-Made-Easy
 ```
 
@@ -123,7 +123,7 @@ $ git checkout master
 # Reset local `master` branch to match `upstream` repository's `master` branch
 $ git reset --hard upstream/master
 
-# Push changes to your forked `Algo_Ds_Notes` repo
+# Push changes to your forked `Learning-Made-Easy` repo
 $ git push origin master
 ```
 
