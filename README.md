@@ -263,7 +263,7 @@ A most common problem faced by students during exams is of time management and i
 ## ⭐ Achievements :cupcake:
  <!-- jwoc -->
 <div class="container-fluid">
-  <img class="mx-auto" src="assets/jwoc.png">
+  <img class="mx-auto" src="assets/jwoc.jpg">
 </div>
 
 
