@@ -259,6 +259,18 @@ A most common problem faced by students during exams is of time management and i
 
 <br>
 
+
+## ⭐ Achievements :cupcake:
+ <!-- jwoc -->
+<div class="container-fluid">
+  <img class="mx-auto" src="assets/jwoc.png">
+</div>
+
+
+<br>
+<br>
+
+
 ## 💥 How to Contribute?
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
