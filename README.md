@@ -37,7 +37,7 @@ You can refer to the following articles on the basics of Git and Github and also
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 - [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
-- [Pull Request Best Practices](https://doordash.engineering/2022/08/30/doordashs-lessons-on-improving-performance-on-high-traffic-web-pages/)
+- [Pull Request Best Practices](https://doordash.engineering/2022/08/23/6-best-practices-to-manage-pull-request-creation-and-feedback/)
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 - [Join the workspace to join the community of contributors](https://join.slack.com/t/opensourcecon-q6c3969/shared_invite/zt-kkqg4h5t-G3euksLSmBI4PJ3lg6WbrA)
 
